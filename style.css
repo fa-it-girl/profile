@@ -1,0 +1,170 @@
+body{
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.first img{
+  border-radius: 50%;
+  margin-left: 13em;
+}
+.first{
+  display: flex;
+  align-items: center;
+}
+
+.second{
+  text-align: start;
+}
+
+.first h1{
+  color: seagreen;
+}
+
+
+.first p{
+  color: black;
+  font-size: 10px;
+  margin-left: 10em;
+}
+
+.nav img{
+  height: 1%;
+  max-width: 80%;
+  margin-left: 7em;
+}
+
+.container{
+  margin-left: 13.5em;
+  margin-right: 13.5em;
+  margin-bottom: 3em;
+  border: 1px solid #d8f3dc;
+  padding: 5px;
+  background-color: #f6fff8;
+  box-shadow: 5px 1px #95d5b2;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.container h2{
+  color: seagreen;
+}
+
+.footer-list > li {
+  display: inline;
+  color: seagreen;
+}
+
+i {
+  font-weight: 400;
+  color:seagreen;
+}
+
+.text-align-left{
+  text-align: left;
+  margin-left: 20em;
+}
+.footer-list a{
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+i:hover{
+  color: #b7e4c7;
+}
+
+.second{
+  margin-left: 1em;
+}
+.star{
+  margin-top: 1em;
+
+}
+
+.star-contain p {
+  margin-left: 8px;
+
+}
+
+.button_t{
+  background-color: seagreen;
+  margin-top: 5px;
+}
+
+.button_t:hover{
+  transform:scale(1.5);
+  color: #b7e4c7;
+}
+
+@media (max-width: 960px) {
+  .container {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-bottom: 3em;
+    border: 1px solid #d8f3dc;
+    padding: 3px;
+    background-color: #f6fff8;
+    box-shadow: 5px 1px #95d5b2;
+    text-align: center;
+  }
+
+  .container h2{
+    color: seagreen;
+    text-align: center;
+  }
+  .text-align-left{
+    text-align: left;
+    margin-left: 10em;
+  }
+  .first img{
+    border-radius: 50%;
+    margin-left: 10em;
+}
+
+@media (max-width: 720px) {
+  .container {
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-bottom: 3em;
+    border: 1px solid #d8f3dc;
+    padding: 3px;
+    background-color: #f6fff8;
+    box-shadow: 5px 1px #95d5b2;
+    text-align: center;
+  }
+
+  .container h2{
+    color: seagreen;
+    text-align: center;
+  }
+  .text-align-left{
+    text-align: left;
+    margin-left: 10em;
+
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+    border: 1px solid #d8f3dc;
+    padding: 3px;
+    background-color: #f6fff8;
+    box-shadow: 5px 1px #95d5b2;
+    text-align: center;
+  }
+
+  .container h2{
+    color: seagreen;
+    text-align: center;
+  }
+  .text-align-left{
+    text-align: left;
+    margin-left: 10em;
+
+  }
+}
